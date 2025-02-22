@@ -1,1 +1,3 @@
 # imc
+
+![](img/qrcode.png)
