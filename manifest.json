@@ -1,0 +1,47 @@
+{
+    "name": "Ficha do Aluno de Academia",
+    "short_name": "FichaAluno",
+    "description": "Uma ficha para calcular dados de academia como IMC .",
+    "start_url": "/atividadeapppwa/",
+    "scope": "/",
+    "display": "standalone",
+    "orientation": "portrait-primary",
+    "dir": "ltr",
+    "background_color": "#ffffff",
+    "theme_color": "#007bff",
+    "icons": [
+
+        {
+            "src": "./img/gym48.png",
+            "sizes": "250x250",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/gym128.png",
+            "sizes": "250x250",
+            "type": "image/png"
+        },
+        {
+            "src": "./img/gym512.png",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+        
+    ],
+    "screenshots": [
+        {
+            "src":"./img/screenshots1.png",
+            "sizes": "334x341",
+            "type": "image/png",
+            "form_factor": "narrow"
+        },
+        {
+            "src":"./img/screenshots2.png",
+            "sizes": "1413x756",
+            "type": "image/png",
+            "form_factor": "wide"
+        }
+ 
+    ]
+}
+      
