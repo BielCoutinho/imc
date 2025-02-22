@@ -3,13 +3,13 @@ self.addEventListener('install', (event) => {
         caches.open('static')
         .then((cache) => {
              
-            cache.add('/imc/')
-            cache.add('/imc/index.html')
-            cache.add('/imc/styles.css')  
-            cache.add('/imc/app.js')
-            cache.add('/imc/img/gym48.png')
-            cache.add('/imc/img/gym128.png')
-            cache.add('/imc/manifest.json')  
+            cache.add('./imc/')
+            cache.add('./imc/index.html')
+            cache.add('./imc/styles.css')  
+            cache.add('./imc/app.js')
+            cache.add('./imc/img/gym48.png')
+            cache.add('./imc/img/gym128.png')
+            cache.add('./imc/manifest.json')  
 
             
         })
